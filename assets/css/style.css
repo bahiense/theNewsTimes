@@ -12,6 +12,14 @@ body {
 
 p { 
     font-size: 1em;
+    margin: 1em 0 1em;
+}
+
+h2 {
+    font-size: 1.875em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
 }
 
 /* Header */
@@ -25,6 +33,43 @@ header {
     font-size: 3.75em;
     font-weight: normal;
     text-align: center;
-    margin-block-start: 0.7em;
-    margin-block-end: .7em;
+    margin: .7em 0 .7em;
 }
+
+/* Section */
+
+section {
+    display: flex;
+    border: 1px solid #000;
+    border-top: 2px solid #000;
+}
+
+section img {
+    max-width: 100%;
+}
+
+section article {
+    padding: .6em;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+section article:first-child{
+    border-right: 1px solid #000;
+}
+
+section article:last-child{
+    border-left: 1px solid #000;
+}
+
+.article-title {
+    margin: .8em 0 1em;
+}
+
+
