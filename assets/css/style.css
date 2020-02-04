@@ -1,2 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    padding: 18px;
+}
+
+p { 
+    font-size: 1em;
+}
+
+/* Header */
+
+header {
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    font-family: "Snell Roundhand" ;
+    font-size: 3.75em;
+    font-weight: normal;
+    text-align: center;
+    margin-block-start: 0.7em;
+    margin-block-end: .7em;
 }
